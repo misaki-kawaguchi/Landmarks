@@ -13,6 +13,7 @@
 		1494C8AF2BAEE2B50058163B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1494C8AE2BAEE2B50058163B /* Preview Assets.xcassets */; };
 		1494C8B72BAEE7910058163B /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1494C8B62BAEE7910058163B /* CircleImage.swift */; };
 		1494C8B92BAEE8A40058163B /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1494C8B82BAEE8A40058163B /* MapView.swift */; };
+		1494C8BC2BAF11460058163B /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 1494C8BB2BAF11460058163B /* landmarkData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		1494C8AE2BAEE2B50058163B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1494C8B62BAEE7910058163B /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		1494C8B82BAEE8A40058163B /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		1494C8BB2BAF11460058163B /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				1494C8B52BAEE76C0058163B /* Views */,
 				1494C8A72BAEE2B40058163B /* LandmarksApp.swift */,
 				1494C8AB2BAEE2B50058163B /* Assets.xcassets */,
+				1494C8BA2BAF11460058163B /* Resources */,
 				1494C8AD2BAEE2B50058163B /* Preview Content */,
 			);
 			path = Landmarks;
@@ -79,6 +82,14 @@
 				1494C8B82BAEE8A40058163B /* MapView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		1494C8BA2BAF11460058163B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1494C8BB2BAF11460058163B /* landmarkData.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +152,7 @@
 			files = (
 				1494C8AF2BAEE2B50058163B /* Preview Assets.xcassets in Resources */,
 				1494C8AC2BAEE2B50058163B /* Assets.xcassets in Resources */,
+				1494C8BC2BAF11460058163B /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
