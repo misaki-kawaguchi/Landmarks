@@ -7,7 +7,10 @@
 
 import Foundation
 
-var landmarks: [Landmark] = load("landmarkData.json")
+@Observable
+class ModelData {
+    var landmarks: [Landmark] = load("landmarkData.json")
+}
 
 // メインバンドルから指定されたファイル名のデータを読み込み、それをデコードして指定された型のオブジェクトに変換する
 func load<T: Decodable>(_ filename: String) -> T {
