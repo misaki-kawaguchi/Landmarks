@@ -10,6 +10,7 @@ import Foundation
 @Observable
 class ModelData {
     var landmarks: [Landmark] = load("landmarkData.json")
+    var hikes: [Hike] = load("hikeData.json")
 }
 
 // メインバンドルから指定されたファイル名のデータを読み込み、それをデコードして指定された型のオブジェクトに変換する
