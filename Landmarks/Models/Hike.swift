@@ -26,6 +26,6 @@ struct Hike: Codable, Hashable, Identifiable {
         
         var elevation: Range<Double>
         var pace: Range<Double>
-        var hertRate: Range<Double>
+        var heartRate: Range<Double>
     }
 }
